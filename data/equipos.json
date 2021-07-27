@@ -19,10 +19,9 @@
     "lastUpdated": "2020-05-14T02:41:34Z"
   },
   {
-    "id": 58,
+    "id": "58",
     "area": {
-      "id": 2072,
-      "name": "England"
+      "name": "Inglaterra"
     },
     "name": "Aston Villa FC",
     "shortName": "Aston Villa",
@@ -32,10 +31,10 @@
     "phone": "+44 (0121) 3272299",
     "website": "http://www.avfc.co.uk",
     "email": null,
-    "founded": 1872,
+    "founded": "1871",
     "clubColors": "Claret / Sky Blue",
     "venue": "Villa Park",
-    "lastUpdated": "2020-05-14T02:41:36Z"
+    "lastUpdated": "27/7/2021"
   },
   {
     "id": 61,
@@ -209,25 +208,6 @@
     "lastUpdated": "2020-05-14T02:42:06Z"
   },
   {
-    "id": 328,
-    "area": {
-      "id": 2072,
-      "name": "England"
-    },
-    "name": "Burnley FC",
-    "shortName": "Burnley",
-    "tla": "BUR",
-    "crestUrl": "https://upload.wikimedia.org/wikipedia/en/6/62/Burnley_F.C._Logo.svg",
-    "address": "Harry Potts Way Burnley BB10 4BX",
-    "phone": "+44 (0871) 2211882",
-    "website": "http://www.burnleyfootballclub.com",
-    "email": "info@burnleyfc.com",
-    "founded": 1881,
-    "clubColors": "Claret / Sky Blue",
-    "venue": "Turf Moor",
-    "lastUpdated": "2020-05-14T02:42:11Z"
-  },
-  {
     "id": 338,
     "area": {
       "id": 2072,
@@ -387,6 +367,17 @@
     "crestUrl": "/images/eb3827f4d9754a06562c89de3bf71cf2",
     "address": "Santiago Del Estero",
     "founded": "1919",
+    "lastUpdated": "27/7/2021"
+  },
+  {
+    "id": "P26100844f2",
+    "area": {
+      "name": "Argentina"
+    },
+    "name": "Boca Juniors",
+    "crestUrl": "/images/4f4524a8bb3816773b82dcc827575d29",
+    "address": "la Boca",
+    "founded": "1905",
     "lastUpdated": "27/7/2021"
   }
 ]
