@@ -1,0 +1,26 @@
+<div class="container mt-5">
+  <img src="{{data.crestUrl}}"  class="img-thumbnail" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{data.name}}</h5>
+    <table class="table table-hover text-nowrap bg-secondary mt-3">
+      <tbody>
+    <tr className='border border-dark'>
+      <th scope="row">Pais</th>
+      <td>{{data.area.name}}</td>
+    </tr>
+    <tr className='border border-dark'>
+      <th scope="row">Ubicacion</th>
+      <td>{{data.address}}</td>
+    </tr>
+    <tr className='border border-dark'>
+      <th scope="row">Fundacion</th>
+      <td>{{data.founded}}</td>
+    </tr>
+     </tbody>
+    </table>
+    <a class="btn btn-success btn-lg" href='/{{data.id}}/editar' role="button">Editar</a>
+    <a class="btn btn-danger btn-lg" href='/{{data.id}}/eliminar' role="button">Borrar</a>
+    <a class="btn btn-primary btn-lg" href="/" role="button">Volver</a>
+    <p class="card-text"><small class="text-muted">Last updated {{data.lastUpdated}}</small></p>
+  </div>
+</div>

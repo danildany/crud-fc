@@ -1,0 +1,16 @@
+<h1 class="text-center"><strong>C.R.U.D FC</strong></h1>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="alert alert-primary w-75 h-75" role="alert">
+        <p>Hay <strong>{{data.equipos.length}}</strong> equipos aqui.</p>
+      </div>
+    </div>
+    <div class="col">
+      <a href="/crear"><button type="button" class="btn btn-primary w-75 h-75"><i class="fas fa-plus-circle"></i> Añadir</button></a>
+    </div>
+  </div>
+</div>
+
+
+{{>listado items=data.equipos}}
